@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <!-- Fragment A -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.codenestor.pruebabarrainferiorysuperior.home.home"
+        android:label="@string/inicio"
+        tools:layout="@layout/fragment_home">
+        <!-- Define cualquier argumento que Fragment A pueda necesitar aquí -->
+        <argument
+            android:name="exampleArgument"
+            app:argType="string"
+            android:defaultValue="Default Value" />
+    </fragment>
+
+    <!-- Fragment B -->
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.codenestor.pruebabarrainferiorysuperior.profile.profile"
+        android:label="Fragment B"
+        tools:layout="@layout/fragment_profile" />
+
+    <!-- Transición de Fragment A a Fragment B -->
+    <action
+        android:id="@+id/action_fragmentA_to_fragmentB"
+        app:destination="@id/nav_profile" />
+</navigation>
