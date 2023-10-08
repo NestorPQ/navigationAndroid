@@ -13,6 +13,9 @@
     </style>
 
 
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Otros estilos -->
+    </style>
 
 
 </resources>
