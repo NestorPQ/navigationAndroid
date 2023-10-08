@@ -11,11 +11,6 @@
         android:name="com.codenestor.pruebabarrainferiorysuperior.home.home"
         android:label="@string/inicio"
         tools:layout="@layout/fragment_home">
-        <!-- Define cualquier argumento que Fragment A pueda necesitar aquí -->
-        <argument
-            android:name="exampleArgument"
-            app:argType="string"
-            android:defaultValue="Default Value" />
     </fragment>
 
     <!-- Fragment B -->
@@ -24,6 +19,20 @@
         android:name="com.codenestor.pruebabarrainferiorysuperior.profile.profile"
         android:label="Fragment B"
         tools:layout="@layout/fragment_profile" />
+
+
+    <fragment
+        android:id="@+id/nav_store"
+        android:name="com.codenestor.pruebabarrainferiorysuperior.store.store"
+        android:label="Fragment B"
+        tools:layout="@layout/fragment_store" />
+
+
+    <fragment
+        android:id="@+id/nav_notificacion"
+        android:name="com.codenestor.pruebabarrainferiorysuperior.notificacion.notificacion"
+        android:label="Notificacion"
+        tools:layout="@layout/fragment_notificacion" />
 
     <!-- Transición de Fragment A a Fragment B -->
     <action

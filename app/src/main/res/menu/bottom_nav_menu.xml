@@ -7,16 +7,16 @@
 
     <item
         android:id="@+id/nav_profile"
-        android:title="Notificación"
-        android:icon="@drawable/baseline_notifications_24" />
+        android:title="Perfil"
+        android:icon="@drawable/baseline_person_24" />
 
     <item
-        android:id="@+id/nav_hom"
-        android:title="Home"
-        android:icon="@drawable/baseline_home_24" />
+        android:id="@+id/nav_store"
+        android:title="Store"
+        android:icon="@drawable/baseline_store_24" />
 
     <item
-        android:id="@+id/nav_profil"
+        android:id="@+id/nav_notificacion"
         android:title="Notifications"
         android:icon="@drawable/baseline_notifications_24" />
 

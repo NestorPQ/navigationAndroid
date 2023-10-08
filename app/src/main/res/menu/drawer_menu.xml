@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/menu_item1"
-        android:title="Fragment 1" />
-    <item
-        android:id="@+id/menu_item2"
-        android:title="Fragment 2" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/baseline_store_24"
+            android:title="Store" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Perfil" />
+
+<!--        Ejemplos-->
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_camera_alt_24"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_image_search_24"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_video_library_24"
+            android:title="Slideshow" />}
+
+    </group>
 </menu>
