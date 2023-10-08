@@ -12,7 +12,6 @@
 
     </style>
 
-
-
+    <style name="Theme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
 </resources>
