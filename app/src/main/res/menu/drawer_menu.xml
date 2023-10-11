@@ -11,19 +11,26 @@
             android:icon="@drawable/baseline_person_24"
             android:title="Perfil" />
 
-<!--        Ejemplos-->
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/baseline_camera_alt_24"
-            android:title="Camera" />
+            android:id="@+id/nav_wifi"
+            android:icon="@drawable/baseline_wifi_24"
+            android:title="Wifi" />
+
+        <!--        Ejemplos-->
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/activity_menu_item"
             android:icon="@drawable/baseline_image_search_24"
-            android:title="Gallery" />
+            android:title="Ir Actividad" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/baseline_video_library_24"
-            android:title="Slideshow" />}
+            android:id="@+id/activity_menu_item_2"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Ir Actividad" />
+
+        <item
+            android:id="@+id/perfilcondiseno"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Ir Perfil" />
+
 
     </group>
 </menu>
